@@ -1,9 +1,9 @@
-int in1 = 2;
+int in1 = 11;
 
 void setup() {
 
   pinMode(in1, OUTPUT);
-  digitalWrite(in1, HIGH);
+  digitalWrite(in1, LOW);
 
 }
 
