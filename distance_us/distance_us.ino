@@ -47,12 +47,12 @@ Serial.println(distance);
 // 2 on
 // 10 off
 
-if(distance<=2)
+if(distance>=11)
 {
   digitalWrite(relay_pin, LOW);
 
 }
-if(distance>=10)
+if(distance<=1)
 {
   digitalWrite(relay_pin, HIGH);
 
